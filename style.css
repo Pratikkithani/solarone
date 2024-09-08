@@ -1,0 +1,615 @@
+body{
+    font-family: "Inter", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body a{
+    text-decoration: none; 
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 50px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: #17191f;
+    padding: 0 15px;
+}
+
+nav a:hover{
+    color: #9399ac;
+}
+
+.home-icon{
+    display: none;
+}
+
+.listdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.listdiv img{
+    height: 40px;
+    width: 40px;
+    padding: 0 5px;
+}
+
+.btn1{
+    background-color: white;
+    border: 1px black solid;
+    padding: 10px;
+    border-radius: 8px;
+    width: 90px;
+}
+
+.btn1:hover{
+    background-color: #cbcbcb;
+}
+
+.btn2{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    width: 100px;
+}
+
+.btn2:hover{
+    background-color: #2d2d2d;
+}
+
+.herosect{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 130px;
+}
+
+.herosect img{
+    height: 600px;
+    width: 600px;
+}
+
+.herosect h3{
+    font-weight: 700;
+    font-size: 30px;
+    color: #044FE7;
+}
+
+.herosect h2{
+    font-weight: 700;
+    font-size: 80px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.herosect p{
+    font-size: 20px;
+    color: #17191f;
+}
+
+.herobutton{
+    display: flex;
+    align-items: center;
+}
+
+.herobutton p{
+    padding-left: 50px;
+    color: #17191f;
+}
+
+.herobutton button{
+    width: 120px;
+    padding: 20px 15px;
+}
+
+.circlesect{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 70px 300px;
+}
+
+.circlesect p{
+    color: #17191f;
+    padding: 20px;
+    line-height: 25px;
+}
+
+.iconcircle{
+    height: 70px;
+    width: 70px; 
+}
+
+.arrow{
+    height: 20px;
+    padding: 0px 70px;
+}
+
+.videosect{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.videosect video{
+    height: 650px;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 160px;
+}
+
+.videosect p{
+    color: #17191f;
+}
+
+.videosect h1{
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 60px;
+}
+
+.brandimgs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+    margin-bottom: 200px;
+}
+
+.brandimgs img{
+    height: 45px;
+}
+
+.strategy{
+    display: flex;
+    flex-direction: column;
+    background-color: #F4F4F5;
+}
+
+.strategysect{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 150px 0;
+}
+
+.strategysect img{
+    height: 580px;
+    width: 580px;
+}
+
+.strategysect h3,
+.strategysectin h3{
+    font-weight: 600;
+    font-size: 15px;
+    color: #044FE7;
+}
+
+.strategysect h2,
+.strategysectin h2{
+    font-weight: 600;
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.strategysect p,.cardhead p{
+    font-size: 20px;
+    color: #17191f;
+}
+
+.strategybutton button{
+    width: 120px;
+    padding: 15px 15px;
+}
+
+.strategysectin{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.strategysectin p{
+    font-size: 20px;
+    color: #17191f;
+    line-height: 30px;
+}
+.strategy > img{
+    height: 700px;
+    width: 1200px;
+    border-radius: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+
+.cardssect{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 20px 100px;
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    border: 0.5px #a5a5a5 solid;
+    border-radius: 40px;
+    padding: 30px 75px;
+    margin-top: 25px;
+}
+
+.cardin{
+    display: flex;
+    align-items: center;
+}
+
+.cardin img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.cards h6{
+    padding-left: 10px;
+    font-size: 15px;
+    color: #17191f;
+    font-weight: 500;
+}
+
+.cards p{
+    padding-left: 10px;
+    font-size: 25px;
+    color: #17191f;
+    line-height: 35px;
+}
+
+.cardhead{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 130px;
+}
+
+.cardhead h1{
+    font-size: 50px;
+}
+
+.blacksect{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: black;
+    padding: 20px 100px;
+    padding-bottom: 150px;
+}
+
+.cards2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 500px;
+    padding: 0px 75px;
+    margin-top: 35px;
+}
+
+.cards2 img{
+    height: 320px;
+    width: 520px;
+    border-radius: 40px;
+}
+
+.cards2 a{
+    text-decoration: none;
+    color: #828282;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.cards2 h1{
+    font-size: 33px;
+    color: white;
+    margin-top: 10px;
+}
+
+.cards2 p{
+    color: #828282;
+    font-size: 15px;
+    margin-top: -10px;
+}
+
+.cardhead2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 130px;
+    background-color: black;
+    padding-top: 200px;
+}
+
+.cardhead2 h1{
+    font-size: 50px;
+    color: white;
+}
+
+.cardhead2 p{
+    font-weight: 500;
+    font-size: 15px;
+    color: #6298ff;
+}
+
+.cards2 a h6{
+    display: inline;
+    padding-right: 20px;
+}
+
+.foottext{
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+footer ul{
+    list-style: none;
+    padding: 0 70px;
+}
+
+.footsect{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.headstyle{
+    font-weight: 700;
+    padding-top: 0;
+}
+
+footer ul li{
+    padding-top: 40px;
+}
+
+footer ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+}
+
+footer .listdiv h1{
+    font-size: 25px;
+    color: black;
+}
+
+.socials img{
+    height: 20px;
+    width: 20px;
+    padding-left: 13px;
+}
+
+.copyright{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.copyrightsect1{
+    display: flex;
+}
+
+.copyright ul{
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+.copyright ul li{
+    padding-left: 20px;
+}
+
+@media only screen and (max-width: 700px) {
+
+    nav ul {
+        display: none;
+    }
+
+    .home-icon {
+        display: block;
+        cursor: pointer;
+    }
+
+    nav{
+        padding: 20px 25px;
+    }
+
+    nav button{
+        display: none;
+    }
+
+    .home-icon:hover + ul, nav ul:hover {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 50px;
+        left: 330px;
+    }
+
+    ul li{
+        padding: 7px 0; 
+    }
+
+    .home-icon:hover + ul li{
+        padding: 7px 0; 
+    }
+
+    .listdiv h1{
+        padding-right: 230px;
+    }
+
+    .herosect{
+        flex-direction: column;
+        width: 100%;
+        justify-content: flex-start;
+        padding: 10px 30px;
+    }
+
+    .herosect h2{
+        font-weight: 700;
+        font-size: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .herobutton{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .herobutton p{
+        padding-left: 0;
+    }
+
+    .herosect img{
+        height: 400px;
+        width: 400px;
+    }
+
+    .brandimgs{
+        justify-content: flex-start
+    }
+
+    .arrow{
+        display: none;
+    }
+
+    .circlesect{
+        flex-direction: column;
+        padding: 70px 200px;
+    }
+
+    .videosect p{
+        text-align: center;
+    }
+
+    .videosect video{
+        height: 300px;
+        width: 100%;
+        margin-top: 50px;
+        margin-bottom: 80px;
+    }
+
+    .strategy > img{
+        height: 300px;
+        width: 95%;
+        
+    }
+
+    .herosect{
+        align-items: flex-start;
+        padding: 0 30px;
+    }
+
+    .strategysect{
+        flex-direction: column;
+    }
+
+    .strategysect img{
+        height: 400px;
+        width: 400px;
+    }
+    
+    .strategysectin{
+        flex-direction: column;
+    }
+
+    .cardssect{
+        padding: 0px 0px;
+    }
+    
+    .cards{
+        
+        width: 80%;
+        padding: 0px 20px;
+        margin-top: 25px;
+    }
+
+    .blacksect{
+        padding: 20px 100px;
+        padding-bottom: 150px;
+    }
+    
+    .cards2{
+        width: 300px;
+        padding: 0px 0px;
+    }
+
+    .cards2 img{
+        height: 200px;
+        width: 320px;
+    }
+
+    footer{
+        flex-direction: column;
+    }
+
+    footer ul li{
+        padding-top: 40px;
+    }
+    footer ul li{
+        padding-top: 10px;
+    }
+
+    .copyright{
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        justify-content: center ;
+    }
+
+    .copyrightsect1{
+        flex-direction: column;
+    }
+
+    .copyright ul{
+        flex-direction: column;
+        margin-top: 0;
+    }
+
+    .copyright p{
+        padding-left: 20px;
+    }
+
+    .socials img{
+        padding-left: 20px;
+    }
+
+    footer .listdiv{
+        padding-left: 55px;
+    }
+}
