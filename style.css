@@ -71,6 +71,10 @@ nav a:hover{
     background-color: #2d2d2d;
 }
 
+.listdiv + div a{
+    padding-left: 0px;
+}
+
 .herosect{
     display: flex;
     justify-content: center;
