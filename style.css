@@ -167,11 +167,16 @@ nav a:hover{
     font-size: 60px;
 }
 
+.brandsect{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .brandimgs{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
     padding-top: 60px;
     margin-bottom: 200px;
 }
@@ -504,17 +509,14 @@ footer .listdiv h1{
         width: 400px;
     }
 
-    .brandimgs{
-        justify-content: flex-start
-    }
-
     .arrow{
         display: none;
     }
 
     .circlesect{
-        flex-direction: column;
-        padding: 70px 200px;
+        display: grid;
+        grid-template-columns: auto auto;
+        padding: 15px 20px;
     }
 
     .videosect p{
@@ -619,6 +621,103 @@ footer .listdiv h1{
     .strategy{
         width: 100%;
     }
+
+    .videosect h1{
+        font-size: 25px;
+    }
+
+    .videosect p{
+        font-size: 15px;
+    }
+
+    .brandsect{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .brandimgs{
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+
+    .brandimgs img{
+        height: 38px;
+    }
+
+    .strategysect h3{
+        font-size: 12px;
+    }
+
+    .strategysect h2{
+        font-size: 30px;
+    }
+
+    .strategysect p{
+        font-size: 12px;
+    }
+
+    .strategysect img{
+        height: 350px;
+        width: 350px;
+        padding-top: 25px;
+    }
+
+    .strategysect {
+        padding: 40px 0;
+    }
+/* ---------------- */
+    
+.strategysectin h3{
+    font-size: 13px;
+}
+
+.strategysectin h2{
+    font-size: 35px;
+}
+
+.strategysectin p{
+    font-size: 15px;
+}
+
+.burstimg{
+    display: none;
+}
+
+.cardhead{
+    margin-top: 50px;
+}
+
+.cardhead p{
+    font-size: 11px;
+}
+
+.cardhead h1{
+    font-size: 30px;
+}
+    
+.cards h6{
+    font-size: 11px;
+}
+
+.cards p{
+    font-size: 17px;
+}
+
+.cardhead2 h1{
+    font-size: 27px;
+}
+
+.cardhead2 p{
+    font-size: 10px;
+}
+
+.blacksect p{
+     font-size: 12px;
+}
+
+.blacksect h1{
+    font-size: 25px;
+}
 }
 
 
@@ -645,4 +744,101 @@ footer .listdiv h1{
         width: 300px;
         height: 200px;
     }
+
+    .videosect h1{
+        font-size: 25px;
+    }
+
+    .videosect p{
+        font-size: 15px;
+    }
+
+    .brandsect{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .brandimgs{
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+
+    .brandimgs img{
+        height: 33px;
+    }
+
+    .strategysect h3{
+        font-size: 12px;
+    }
+
+    .strategysect h2{
+        font-size: 30px;
+    }
+
+    .strategysect p{
+        font-size: 12px;
+    }
+
+    .strategysect img{
+        height: 350px;
+        width: 350px;
+        padding-top: 25px;
+    }
+
+    .strategysect {
+        padding: 40px 0;
+    }
+/* ---------------- */
+    
+.strategysectin h3{
+    font-size: 13px;
+}
+
+.strategysectin h2{
+    font-size: 35px;
+}
+
+.strategysectin p{
+    font-size: 15px;
+}
+
+.burstimg{
+    display: none;
+}
+
+.cardhead{
+    margin-top: 50px;
+}
+
+.cardhead p{
+    font-size: 11px;
+}
+
+.cardhead h1{
+    font-size: 30px;
+}
+    
+.cards h6{
+    font-size: 11px;
+}
+
+.cards p{
+    font-size: 17px;
+}
+
+.cardhead2 h1{
+    font-size: 27px;
+}
+
+.cardhead2 p{
+    font-size: 10px;
+}
+
+.blacksect p{
+     font-size: 12px;
+}
+
+.blacksect h1{
+    font-size: 25px;
+}
 }
